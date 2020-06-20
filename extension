@@ -1,0 +1,17 @@
+    # AREA OF THE CIRCLE
+import math
+radius= float(input( " INPUT THE RADIUS OF THE CIRCLE: "))
+area = math.pi*radius*radius
+print(" THE AREA OF THE CIRCLE WITH RADIUS 1.1 IS: ",area) 
+
+    #output
+ INPUT THE RADIUS OF THE CIRCLE:  1.1
+ THE AREA OF THE CIRCLE WITH RADIUS 1.1 IS:  3.8013271108436504
+     #FILE EXTENSION
+ filename= input("INPUT THE FILE NAME: ")
+ f_extns= filename.split(".")
+ print(" THE EXTENSION OF THE FILE IS : " +repr(f_extns[-1])
+ 
+   #output
+INPUT THE FILENAME:  abc.python
+THE EXTENSION OF THE FILE IS: 'python'   
